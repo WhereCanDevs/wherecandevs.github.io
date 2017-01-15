@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'League Spartan';
+    src: url('/_client/fonts/leaguespartan/leaguespartan-bold.eot');
+    src: url('_client/fonts/leaguespartan/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('/_client/fonts/leaguespartan/leaguespartan-bold.woff2') format('woff2'),
+         url('/_client/fonts/leaguespartan/leaguespartan-bold.woff') format('woff'),
+         url('/_client/fonts/leaguespartan/leaguespartan-bold.ttf') format('truetype'),
+         url('/_client/fonts/leaguespartan/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/_client/fonts/icomoon/icomoon.eot?6tqj6y');
+  src:  url('/_client/fonts/icomoon/icomoon.eot?6tqj6y#iefix') format('embedded-opentype'),
+    url('/_client/fonts/icomoon/icomoon.ttf?6tqj6y') format('truetype'),
+    url('/_client/fonts/icomoon/icomoon.woff?6tqj6y') format('woff'),
+    url('/_client/fonts/icomoon/icomoon.svg?6tqj6y#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bubbles4:before {
+  content: "\72";
+}
+.icon-heart:before {
+  content: "\68";
+}
+
+.icon-clipboard:before {
+  content: "\63";
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 60px;
+}
+
+.logo {
+    display: block;
+    height: 75px;
+    margin: 0 auto;
+    position: relative;
+    width: 420px;
+}
+
+.logo__text {
+    background: url('/_client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
+    background-clip: text;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    color: transparent;
+    filter: hue-rotate(-36deg);
+    font-family: 'League Spartan';
+    font-size: 70px;
+    margin: 0px;
+    position: absolute;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-filter: hue-rotate(-36deg); 
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;    
+}
+
+.logo__detail {
+    background: url('/_client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
+    background-clip: text;
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    color: transparent;
+    filter: hue-rotate(-68deg);
+    font-size: 75px;
+    margin: 0px;
+    position: absolute;
+    right: 12px; 
+    text-align: center;
+    top: -40px;
+    -webkit-background-clip: text;
+    -webkit-filter: hue-rotate(-68deg); 
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+}
+
+@media only screen and (max-width : 768px) {
+    .logo__text {
+        background: url('/_client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
+        background-clip: text;
+        background-position: 0 0;
+        background-repeat: repeat-x;
+        color: transparent;
+        filter: hue-rotate(-36deg);
+        font-family: 'League Spartan';
+        font-size: 50px;
+        margin: 0px;
+        margin-left: 15%;
+        position: absolute;
+        text-align: center;
+        -webkit-background-clip: text;
+        -webkit-filter: hue-rotate(-36deg); 
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;    
+    }
+
+    .logo__detail {
+        background: url('/_client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
+        background-clip: text;
+        background-repeat: repeat-x;
+        background-position: 0 0;
+        color: transparent;
+        filter: hue-rotate(-68deg);
+        font-size: 50px;
+        margin: 0px;
+        position: absolute;
+        right: 68px; 
+        text-align: center;
+        top: -25px;
+        -webkit-background-clip: text;
+        -webkit-filter: hue-rotate(-68deg); 
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+    }
+}
+
+@media only screen and (max-width : 450px) {
+    .logo__text {
+        background: url('/_client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
+        background-clip: text;
+        background-position: 0 0;
+        background-repeat: repeat-x;
+        color: transparent;
+        filter: hue-rotate(-36deg);
+        font-family: 'League Spartan';
+        font-size: 40px;
+        margin: 0px;
+        margin-left: 20%;
+        position: absolute;
+        text-align: center;
+        -webkit-background-clip: text;
+        -webkit-filter: hue-rotate(-36deg);
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+    }
+
+    .logo__detail {
+        background: url('/_client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
+        background-clip: text;
+        background-repeat: repeat-x;
+        background-position: 0 0;
+        color: transparent;
+        filter: hue-rotate(-68deg);
+        font-size: 40px;
+        margin: 0px;
+        position: absolute;
+        right: 106px;
+        text-align: center;
+        top: -20px;
+        -webkit-background-clip: text;
+        -webkit-filter: hue-rotate(-68deg);
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text; 
+    }
+}
+
+@media only screen and (max-width : 320px) {
+
+    .logo {
+        height: 40px;
+    }
+
+    .logo__text {
+        background: url('/_client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
+        background-clip: text;
+        background-position: 0 0;
+        background-repeat: repeat-x;
+        color: transparent;
+        filter: hue-rotate(-36deg);
+        font-family: 'League Spartan';
+        font-size: 40px;
+        margin: 0px;
+        margin-left: 12%;
+        position: absolute;
+        text-align: center;
+        -webkit-background-clip: text;
+        -webkit-filter: hue-rotate(-36deg);
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+    }
+
+    .logo__detail {
+        background: url('/_client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
+        background-clip: text;
+        background-repeat: repeat-x;
+        background-position: 0 0;
+        color: transparent;
+        filter: hue-rotate(-68deg);
+        font-size: 40px;
+        margin: 0px;
+        position: absolute;
+        right: 138px;
+        text-align: center;
+        top: -20px;
+        -webkit-background-clip: text;
+        -webkit-filter: hue-rotate(-68deg);
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text; 
+    }
+}
