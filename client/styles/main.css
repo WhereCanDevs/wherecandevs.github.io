@@ -1,22 +1,22 @@
 @font-face {
     font-family: 'League Spartan';
-    src: url('/_client/fonts/leaguespartan/leaguespartan-bold.eot');
-    src: url('_client/fonts/leaguespartan/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
-         url('/_client/fonts/leaguespartan/leaguespartan-bold.woff2') format('woff2'),
-         url('/_client/fonts/leaguespartan/leaguespartan-bold.woff') format('woff'),
-         url('/_client/fonts/leaguespartan/leaguespartan-bold.ttf') format('truetype'),
-         url('/_client/fonts/leaguespartan/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    src: url('/client/fonts/leaguespartan/leaguespartan-bold.eot');
+    src: url('client/fonts/leaguespartan/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('/client/fonts/leaguespartan/leaguespartan-bold.woff2') format('woff2'),
+         url('/client/fonts/leaguespartan/leaguespartan-bold.woff') format('woff'),
+         url('/client/fonts/leaguespartan/leaguespartan-bold.ttf') format('truetype'),
+         url('/client/fonts/leaguespartan/leaguespartan-bold.svg#league_spartanbold') format('svg');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('/_client/fonts/icomoon/icomoon.eot?6tqj6y');
-  src:  url('/_client/fonts/icomoon/icomoon.eot?6tqj6y#iefix') format('embedded-opentype'),
-    url('/_client/fonts/icomoon/icomoon.ttf?6tqj6y') format('truetype'),
-    url('/_client/fonts/icomoon/icomoon.woff?6tqj6y') format('woff'),
-    url('/_client/fonts/icomoon/icomoon.svg?6tqj6y#icomoon') format('svg');
+  src:  url('/client/fonts/icomoon/icomoon.eot?6tqj6y');
+  src:  url('/client/fonts/icomoon/icomoon.eot?6tqj6y#iefix') format('embedded-opentype'),
+    url('/client/fonts/icomoon/icomoon.ttf?6tqj6y') format('truetype'),
+    url('/client/fonts/icomoon/icomoon.woff?6tqj6y') format('woff'),
+    url('/client/fonts/icomoon/icomoon.svg?6tqj6y#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -61,7 +61,7 @@ body {
 }
 
 .logo__text {
-    background: url('/_client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
+    background: url('/client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
     background-clip: text;
     background-position: 0 0;
     background-repeat: repeat-x;
@@ -80,7 +80,7 @@ body {
 }
 
 .logo__detail {
-    background: url('/_client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
+    background: url('/client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
     background-clip: text;
     background-repeat: repeat-x;
     background-position: 0 0;
@@ -101,7 +101,7 @@ body {
 
 @media only screen and (max-width : 768px) {
     .logo__text {
-        background: url('/_client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
+        background: url('/client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
         background-clip: text;
         background-position: 0 0;
         background-repeat: repeat-x;
@@ -121,7 +121,7 @@ body {
     }
 
     .logo__detail {
-        background: url('/_client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
+        background: url('/client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
         background-clip: text;
         background-repeat: repeat-x;
         background-position: 0 0;
@@ -143,7 +143,7 @@ body {
 
 @media only screen and (max-width : 450px) {
     .logo__text {
-        background: url('/_client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
+        background: url('/client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
         background-clip: text;
         background-position: 0 0;
         background-repeat: repeat-x;
@@ -163,7 +163,7 @@ body {
     }
 
     .logo__detail {
-        background: url('/_client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
+        background: url('/client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
         background-clip: text;
         background-repeat: repeat-x;
         background-position: 0 0;
@@ -190,7 +190,7 @@ body {
     }
 
     .logo__text {
-        background: url('/_client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
+        background: url('/client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
         background-clip: text;
         background-position: 0 0;
         background-repeat: repeat-x;
@@ -210,7 +210,7 @@ body {
     }
 
     .logo__detail {
-        background: url('/_client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
+        background: url('/client/images/noise.png'),linear-gradient(20deg,#ff4169 0,#7C26F8 100%);
         background-clip: text;
         background-repeat: repeat-x;
         background-position: 0 0;
